@@ -47,7 +47,7 @@ h1 {
 
 p {
     line-height: 100%;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 nav ul {
@@ -133,7 +133,7 @@ section li a {
     padding: 16px ;
     background: #fff;
     border-radius: 10px;
-    padding: 8px;
+    padding: 12px;
     grid-column: 1 / 2;
     margin-right: 24px;
 }
@@ -168,8 +168,8 @@ section li a {
     display: flex;
 }
 
-.status small {
-    font-size: 12px;
+small {
+    font-size: 10px;
 }
 
 .status div {
@@ -194,11 +194,24 @@ section li a {
     grid-column: 4 / 6;
     margin-left: 24px;
 }
-.a-1 {
+.activities img {
+    margin-top: 8px;
+}
+.a-1, .a-2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
+    align-items: center;
+    margin: 8px 0;
 }
 .a-1 p {
     color: #ADACAC;
+}
+
+.a-2 div img{
+    margin-right: 8px;
+}
+
+.a-2 div small {
+    display: block;
 }
